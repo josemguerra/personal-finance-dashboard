@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Personal Finance Dashboard" />
+    <meta
+      property="og:description"
+      content="Manage your budget, track goals, and find practical financial tips with our easy-to-use dashboard."
+    />
+    <meta
+      property="og:image"
+      content="https://example.com/finance-dashboard-preview.png"
+    />
+    <meta
+      property="og:url"
+      content="https://example.com/personal-finance-dashboard"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta
+      name="description"
+      content="A comprehensive Personal Finance Dashboard to help you manage budgets, track savings goals, and get actionable financial advice."
+    />
+    <meta name="author" content="Jose Guerra" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Finance Dashboard</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <h1>Personal Finance Dashboard</h1>
+      <p>Manage your budget, track goals, and find tips</p>
+    </header>
+    <!--Main Content-->
+    <main>
+      <!--Budget Planner Section-->
+      <section id="budget-planner">
+        <h2>Budget Planner</h2>
+        <form action="#" method="post">
+          <label for="income"
+            >Income:
+            <input type="number" name="income" id="income" />
+          </label>
+          <label for="expense"
+            >Expense:
+            <input type="number" name="expense" id="expense" />
+          </label>
+          <button type="button">Calculate</button>
+        </form>
+        <output id="result">Your balance will appear here.</output>
+      </section>
+
+      <!--Savings Goal Section-->
+      <section id="savings-goal">
+        <h2>Savings Goal</h2>
+        <label for="goal">Savings Goal:</label>
+        <input type="number" id="goal" name="goal" />
+        <progress value="0" max="100"></progress>
+      </section>
+
+      <!--Finalcial Tips Section-->
+      <section id="tips">
+        <h2>Finalcial Tips</h2>
+        <!-- Tips will be dynamically loaded here -->
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; 2024 Jose Guerra - all rights reserved</p>
+    </footer>
+  </body>
+  <script src="./scripts/app.js"></script>
+</html>
