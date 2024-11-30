@@ -133,7 +133,7 @@ This project is develop following **Agile principles**, ensuring iterative progr
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
---
+---
 
 ## License
 
